@@ -3,8 +3,17 @@ import Button from "./Button";
 import { Link } from "react-router";
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    //getinitialState
+    this.state = {
+      games: []
+    };
+  }
+
   handleSelection() {
-    console.log;
+    console.log();
   }
 
   render() {
