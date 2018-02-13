@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family==Baloo|Fredoka+One");
+
+body {
+  font-family: "Fredoka One", cursive;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(7, 76, 116, 0.9);
+}
+
+.btn {
+  font-family: "Baloo";
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  padding: 0px 15px;
+  margin: 4px auto;
+  /* display: block; */
+  min-width: 130px;
+  height: 20%;
+  height: calc(100% / 5);
+  min-height: 54px;
+  border: dotted #000;
+  border-radius: 30px 8px 30px 8px;
+  background: rgb(168, 252, 0);
+  transition: all 0.1s cubic-bezier(0, 0, 1, 2.35);
+}
+
+.btn:hover {
+  background-color: rgb(168, 252, 0);
+  border: solid #000;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+
+.btn-menu {
+  width: 50%;
+}
